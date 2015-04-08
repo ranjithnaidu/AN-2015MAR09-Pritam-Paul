@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Listview_Asc_Desc_Application</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="SortingList">Sorting List</string>
+    <string name="Asc">Ascending</string>
+    <string name="Desc">Descending</string>
+</resources>
