@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Creditcard_application</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="compute">COMPUTE</string>
+    <string name="clear">CLEAR</string>
+
+    <string name="cardbalance">Enter Card Balance ($)</string>
+    <string name="rate">Enter Yearly Interest Rate (%)</string>
+    <string name="payment">Enter Minimum Payment ($)</string>
+    <string name="findcardbalance">Find Card Balance ($)</string>
+    <string name="remaining">Months Remaining</string>
+    <string name="interest">Interest Paid Will Be ($)</string>
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/black">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".75">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cardbalance"
+                android:id="@+id/textCardBalance"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rate"
+                android:id="@+id/textRate"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/payment"
+                android:id="@+id/textPayment"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/findcardbalance"
+                android:id="@+id/textFindCardBalance"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/remaining"
+                android:id="@+id/textRemaining"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/interest"
+                android:id="@+id/textInterest"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editCardBalance"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:layout_marginBottom="6dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editRate"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:layout_marginBottom="6dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editPayment"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:layout_marginBottom="16dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editFindCardBalance"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:layout_marginBottom="6dp"
+                android:focusable="false"
+                android:cursorVisible="false"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editRemaining"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:layout_marginBottom="6dp"
+                android:focusable="false"
+                android:cursorVisible="false"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editInterest"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:layout_marginBottom="16dp"
+                android:focusable="false"
+                android:cursorVisible="false"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/compute"
+        android:id="@+id/buttonCompute"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="6dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear"
+        android:id="@+id/buttonClear"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="6dp"/>
+
+    </LinearLayout>
+</LinearLayout>
