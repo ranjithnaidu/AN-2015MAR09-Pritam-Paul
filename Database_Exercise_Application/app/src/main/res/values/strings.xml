@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Database_Exercise_Application</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Auto Complete Text View</string>
+</resources>
